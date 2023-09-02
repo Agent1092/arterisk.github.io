@@ -1,0 +1,773 @@
+.trialform{
+    margin-left:75px;
+}
+.trialform input {
+    width:200px;
+}
+
+
+.tnclist li{
+    list-style-type:circle;
+    padding:3px;
+    color:black;
+
+}
+
+.trail_form{ margin:25px 0 0 0}
+.trail_form p{ font-family:Arial, Helvetica, sans-serif; color:#454545; line-height:20px} 
+.trail_form .info{ background:#edf6fc; border:1px solid #d8e9f3; padding:12px; co#454545; font-weight:bold; line-height:18px; -moz-border-radius:12px; margin:10px 0; -webkit-border-radius:12px; border-radius:12px}
+
+
+
+.freetrial{
+    height:50px;
+    float:none;
+    background-color:#F87629;
+    text-align:center;
+    width:auto;
+    padding-bottom:5px;
+}
+
+#dialog1{
+    z-index: 1001;
+}
+
+#ajaxloader{
+    width:100%;
+    height: 100%;
+    z-index: 100;
+    background-image: url('../images/tr1.png');
+    position: absolute;
+    display:none;
+}
+.ajaxbox{
+    display:none;
+    text-align: center;
+    padding:10px;
+    width: 300px;
+    height: 150px; 
+    background-color: #C5C5EC; 
+    position: relative; 
+    margin: auto;
+    top:150px;
+    border: 1px solid #0000CC;
+    border-radius: 10px;
+
+}
+/*.row{
+    margin: 0px;
+}*/
+.headings{
+    background-color: #368cbb;
+    
+
+}
+.headings h2{
+    margin-left: 140px;
+    color: white;
+    font-size: 28px;
+    
+}
+@media screen and (min-width: 700px) {
+    ul.nav li.dropdown.megamenu:hover > ul.dropdown-menu {
+        display: flex;
+        flex-wrap: wrap;    
+    }
+
+    ul.nav li.dropdown:hover > ul.dropdown-menu:not(".nohover") {
+        display: block;    
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .headings h2{
+        font-size: 24px;
+        margin-left: 10px;
+        color: white;
+    }
+}
+
+
+
+
+.navbar {
+    background: transparent;
+    border: 0px;    
+}
+
+.navbar-right li a{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown-menu li{
+    padding: 6px;
+}
+
+.input-lg{     
+    max-width: 250px;
+    color: #5cb85c;
+}
+@media screen and (max-width: 400px) {
+    .input-lg{
+        max-width: 150px;
+        color: #5cb85c;
+    }
+} 
+
+.input-dr{     
+    max-width: 100px;
+    color: #368cbb;
+}
+
+.mybtn{
+    font-size: 18px;
+}
+
+.myaccount{
+    border-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 2px;
+    background-color: white;
+}
+
+.table-responsive{
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+
+.table-responsive thead tr td{
+    background-color: #75bde5;
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+.table-responsive tr{
+    background-color: #f2f9fd;
+}
+.table-responsive tr td{
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+.table-responsive tr:hover{
+    background-color: #e0f0f9;
+}
+
+.pdialog{
+    font-size: 12px;
+}
+
+
+
+.privacycheckbox{
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.navwelcome {
+
+    text-align: right;    
+}
+
+
+.clienthomebox{
+    padding-top: 0px;
+    margin-top: 15px;
+    height: 150px;
+    font-size:18px;
+}
+.clienthomebox1{
+    border: 1px solid #368cbb ;
+    border-radius: 6px;
+    background-color: #d8e9f3;
+    color: #368cbb;
+    padding-left: 0;
+    padding-top: 0;
+    height: 150px;
+    font-size:22px;
+
+}
+
+.clienthomebox .clienthomebox1 > a {
+    font-size: 22px;
+    font-family: "Raleway";
+    font-weight: 700;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    display: block;
+    text-align: center;
+    background: #368cba;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.clienthomebox .clienthomebox1 .row {
+    margin: 0;
+}
+
+.clienthomebox1 a{
+    color: #368cbb;
+}
+.clienthomebox1 div div{
+    margin: 5px;
+    padding-left: 25px;
+    font-size: 50px;
+    padding-top: 30px;
+    float: right;
+    padding-right: 20px;
+}
+.clienthomebox1 div img{
+    margin: 8px;
+    height: 70px;
+}
+
+@media screen and (max-width: 950px) {
+
+.clienthomebox1 div img{
+    margin: 2px;
+    height: 40px;
+}
+
+}
+.navbar {
+    background: transparent;
+    border: 0px;    
+}
+
+
+.navbar-default li{
+
+}
+
+.navbar-right ul li a{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dropdown-menu li{
+    padding: 6px;
+}
+
+.footerclass{
+    margin-top: 65px;
+}
+
+.privacycheckbox{
+    width: 100px !important;
+
+}
+
+.navbar-default{
+    background-color: #4E4E4E;
+}
+
+
+
+
+.navbar{
+    background-color: transparent;
+    margin: 0px;
+
+}
+
+.navbar-nav li a{
+    font-size: 16px;
+    color: #ffffff !important;
+    background-color: transparent;
+}
+.navbar-nav li ul {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+}
+
+
+
+
+.navbar-nav > li > a:hover{
+    background-color: #368cbb;
+}
+
+.nav2{
+    background-color: transparent;
+    
+}
+
+
+.nav2 li a{
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff !important;
+    background-color: transparent;
+}
+.nav2 li ul {
+    font-size: 14px;
+    font-weight: normal;
+}
+.nav2 li ul li a{
+    font-size: 14px;
+    font-weight: normal;
+
+}
+
+.navbar-right.nav2 .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+.nav2 li:hover{
+    background-color: #4E4E4E;
+}
+
+
+.nav2 li a:hover{
+    background-color: #4E4E4E;
+}
+
+
+#hostingdetailsdialog{
+    display:none;
+    text-align: center;
+    padding:18px;
+    width: 600px;
+    height: 400px; 
+    background-color: #FFF; 
+    position: relative; 
+    margin: auto;
+    top:50px;
+    border: 1px solid #0000CC;
+    border-radius: 10px;
+    font-size:16px;
+    text-align: left;
+
+
+}
+.hostingdetailsboxheading{
+
+    width: 98%;
+    border-radius: 10px;
+    background-color: #368cbb; 
+    text-align: center;
+    color: #fff;
+
+}
+.hostingdetailsboxheading div h2{
+    font-size: 26px;
+}
+.hostingdetailsboxheading div h3{
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    #hostingdetailsdialog{
+        display:none;
+        text-align: center;
+        padding:10px;
+        width: 250px;
+        height: 350px; 
+        background-color: #FFF; 
+        position: relative; 
+        margin: auto;
+        top:50px;
+        border: 1px solid #0000CC;
+        border-radius: 10px;
+        font-size:12px;
+        text-align: left;
+
+    }
+    .hostingdetailsboxheading h2{
+        font-size: 26px;
+    }
+}
+
+
+
+.invoicetbl{
+    width:100%;
+    border: 1px solid #cccccc;
+    margin: 0px;
+}
+
+.invoicetbl thead tr td{
+    background-color: #cccccc;
+    padding: 8px;
+}
+
+
+.invoicetbl tr td{
+    padding: 8px;
+}
+
+
+.invoicetbl tr:hover{
+    background-color :#f7f1f1;
+}
+
+
+
+.hostingActive{
+    text-align: center;
+    background-color: #5cb85c;
+    color: #fff;
+}
+.hostingTerminated{
+    text-align: center;
+    background-color: #a94442;
+    color: #fff;
+}
+
+.hostingPending{
+    text-align: center;
+    background-color: #C5C5EC;
+    color: #fff;
+}
+
+.hostingSuspended{
+    text-align: center;
+    background-color: #e38d13;
+    color: #fff;
+}
+
+.hostingCancelled{
+    text-align: center;
+    background-color: #ede6e6;
+    color: #fff;
+}
+
+.hostingCompleted{
+    text-align: center;
+    background-color: #a94442;
+    color: #fff;
+}
+
+
+.hostingExpired{
+    text-align: center;
+    background-color: #a94442;
+    color: #fff;
+}
+
+.hostingInactive{
+    text-align: center;
+    background-color: #C5C5EC;
+    color: #fff;
+}
+
+.hostingClosed{
+    text-align: center;
+    background-color: #a94442;
+    color: #fff;
+}
+.hostingUnpaid{
+    text-align: center;
+    background-color: #a94442;
+    color: #fff;
+}
+.hostingPaid{
+    text-align: center;
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+
+.viewticket{
+    background-color: #f7f1f1;
+    font-size: 14px;
+}
+
+.viewticket tr td{
+    padding: 5px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #cccccc;
+}
+.viewticketleftcolumn{
+    background-color: #eee;
+    width: 250px;
+    vertical-align: top;
+    border-bottom: 1px solid #C5C5EC;
+   
+}
+.viewticketrightcolumn{
+ font-size: 14px;   
+  border-bottom: 1px solid #C5C5EC;
+ 
+}
+.viewticketsubj{
+    padding: 5px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+
+.otpformboxheading{
+
+    width: 100%;
+    text-align: center;
+    /*color: #fff;*/
+    height: 310px;
+}
+
+.otpformboxheading h2{
+    font-size:24px;
+    text-align:center;
+    padding:20px;
+    font-weight:700;
+}
+
+.otpformboxheading p{
+    font-size:16px;
+    font-weight:700;
+}
+
+.otpformboxheading h4{
+    font-size:14px;
+    padding:20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*get linux offer page css by aryan*/
+
+.costom img {
+    /* margin-top: 30px; */
+    width: 70%;
+    /* align-items: center; */
+    /*position: absolute;*/
+}
+.cPanel h1 { 
+  color: #11426c;
+}
+.heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2d454f;
+  line-height: 27px;
+}
+
+/* end commen style */
+.choose{
+  color: #2D454F;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.text-whit {
+    color: white;
+    text-align: left;
+    padding: 35px 0px 10px 0px;
+}
+.fear h3 {
+  color: #2d454f;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 0px 8px;
+}
+.cPanel1 h1 {
+  color: #2d454f;
+  padding: 6px;
+}
+
+.btn-block {
+  color: white;
+}
+/*  message resposive  */
+@media screen and (min-width: 400) {
+  .feat1 .feat img {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .feat1 img,
+  .feat img {
+    width: 100%;
+  max-width: 57px;
+  }
+}
+
+
+/*content-class*/
+.linux{
+  color: #11426C;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.blue-text {
+  font-size: 36px; 
+  font-weight: 300;
+  color: #11426C;
+  line-height: 50px;
+  padding: 0px;
+}
+
+.text-blue {
+  font-weight: 700;
+    font-size: 37px;
+  line-height: 50px;
+    color: #11426C;
+    margin-top: 0px;
+    padding: 0px;
+}
+.txt-blu {
+  text-align: justify;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 15px;
+}
+.feat {
+  border: 1px solid #2d454f;
+  height: 285px;
+  align-items: center;
+  padding: 40px;
+  margin: 15px 0px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+
+.plan-text {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.feat1 {
+  border: 1px solid;
+ min-height: 210px;
+  text-align: center;
+  padding: 28px 29px;
+  margin: 12px 0px;
+  background-color: #eaf4f9;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.feat1 .img-11 {
+  margin-bottom: 10px;
+}
+
+.plan-text1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  padding: 6px;
+}
+
+.frequently {
+  background-color: #2e86c1;
+  text-align: center;
+  padding: 25px;
+}
+
+.frequently h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+}
+.feaquently{
+  background-color: #2E86C1;
+  margin-top: 30px;
+}
+/* message for footer*/
+.feaquently .panel.panel-default {
+    /* border: none; */
+    background-color: transparent;
+    text-align: left;
+    color: #fff;
+    border-top: none;
+    border-bottom: 1px solid #fff;
+    border-left: none;
+    border-right: none;
+}
+.feaquently .panel-heading {
+  background-color: transparent !important;
+  color: white;
+  
+}
+
+.feaquently .panel-heading h4 a:focus{
+    color: #fff;
+}
+
+.feaquently .panel-heading h4{
+  font-size: 16px;
+  font-weight: 100;
+}
+.feaquently .panel-default .panel-body{
+  border: 0px !important;
+}
+.feaquently .accordion {
+  padding: 25px 0px;
+}
+ .feaquently .panel-heading h4 a:hover{
+  text-decoration: none;
+  color: #fff;
+ }
+
+
+
+ .image-box{
+    padding:20px 30px;
+}
+
+
+h4.panel-title a i {
+    float:right;
+}
+
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width:992px) {
+    
+  .image-box.costom img{
+      width:100%;
+  }
+  
+  }
+
+  @media screen and (max-width: 767px) {
+    .why-choose .col-sm-6, .hosting-featues .col-sm-6 {
+        width:100%;   
+    }
+}
+
+
+
+
+
+ /*get linux offer page end*/
